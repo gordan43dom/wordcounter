@@ -27,6 +27,7 @@ $app = new Illuminate\Foundation\Application;
 $env = $app->detectEnvironment(array(
 
 	'local' => array('Gordan-PC'),
+        'work' => array('localadmins-iMac-3.local'),
 
 ));
 

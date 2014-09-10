@@ -121,6 +121,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+                'Pingpong\Admin\AdminServiceProvider',
+                'Pingpong\Menus\MenusServiceProvider',
+                'Pingpong\Trusty\TrustyServiceProvider',
 
 	),
 
@@ -188,6 +191,10 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+                'Menu'              => 'Pingpong\Menus\Facades\Menu',
+                'Role'              => 'Pingpong\Trusty\Entities\Role',
+                'Permission'        => 'Pingpong\Trusty\Entities\Permission',
+                'Trusty'            => 'Pingpong\Trusty\Facades\Trusty',
 
 	),
 
